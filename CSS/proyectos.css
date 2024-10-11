@@ -1,3 +1,7 @@
+*{
+    background-color: var(--bg-color);
+}
+
 .video{
   width: 20em;  
 }
