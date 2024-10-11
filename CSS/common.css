@@ -15,5 +15,21 @@
     background-color: var(--bg-color);
 
 }
+*{
+    box-sizing: border-box;
+}
+
+@media print {
+    header.header, .footer, .banner{
+        display: none;
+    }
+ 
+}
+@media screen and (prefers-color-scheme: light){
+    :root {
+        --bg-color: #FFF;
+        --main-text-color: #000;
+    }
+}
 
 

@@ -1,8 +1,13 @@
 .footer{
+    width: 70vh;
     text-align: center;
-    font-weight: 100;
+    font-weight: 50;
     font-style: italic;
-    padding: 20px 0;
-    /*  1 rem => 16px */
     font-size: 1rem ;
+    .lista{
+        display:flex;
+        list-style: none;
+        justify-content:space-between;
+    }
+  
 }
